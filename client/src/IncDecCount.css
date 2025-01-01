@@ -1,0 +1,82 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Container */
+.counter-container {
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.counter-container h1 {
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+/* Count display */
+.count-display {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #555;
+}
+
+/* Button group */
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Buttons */
+.counter-button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Specific button colors */
+.counter-button.increment {
+    background-color: #28a745;
+    color: white;
+}
+
+.counter-button.increment:hover {
+    background-color: #218838;
+    transform: scale(1.1);
+}
+
+.counter-button.decrement {
+    background-color: #dc3545;
+    color: white;
+}
+
+.counter-button.decrement:hover {
+    background-color: #c82333;
+    transform: scale(1.1);
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+    .counter-container {
+        width: 90%;
+    }
+
+    .counter-button {
+        font-size: 1em;
+        padding: 8px 16px;
+    }
+}

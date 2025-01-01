@@ -1,0 +1,58 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Navbar styling */
+.navbar1 {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 20px auto; /* Center the navbar */
+    padding: 15px 20px;
+    text-align: center;
+    width: 60%; /* Reduce the width of the navbar */
+}
+
+.navbar1 h1 {
+    margin: 0 0 10px; /* Add bottom margin to space below heading */
+    color: #333333;
+    font-size: 1.5em;
+}
+
+/* Buttons container */
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between buttons */
+    margin-top: 10px;
+}
+
+/* Individual button styling */
+.color-button {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Button colors */
+.color-button.red { background-color: #e74c3c; }
+.color-button.green { background-color: #2ecc71; }
+.color-button.blue { background-color: #3498db; }
+.color-button.yellow { background-color: #f1c40f; color: #333; }
+.color-button.purple { background-color: purple; }
+.color-button.gray { background-color: gray; }
+
+
+/* Hover effects */
+.color-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
